@@ -12,3 +12,36 @@
         for i in range(11)      从0到10的循环
         for i in range(5, 10)   从5到9的循环
         for i in range(5, 10, 2)循环：5 7 9
+
+3 列表
+    3.1列表的表示
+        rhyme = [……]
+    3.2列表的遍历（从0开始数）
+        for i in rhyme
+    3，3列表切片
+        列表切片 rhyme[0:3]相当于rhyme[:3]
+        rhyme[:]就是整个列表
+        也可以像range一样用rhyme[::]
+    3.4在列表后面添加迭代对象
+        rhyme.append(……) 只能添加一个
+        rhyme.extend([……, ……，……]) 可以添加多个
+        rhyme[len(rhyme):]=[……,……,……] 可以直接定义的方式来添加迭代对象 
+        rhyme.insert(插入位置,插入内容)
+    3.5删除
+        rhyme.remove(删除内容)  如果出现多个相同内容的则会删去下标较小的那个
+        rhyme.pop(……)   删除第几个下标的对象
+        rhyme.clear()   删除列表所有对象
+    3.6排序
+        rhyme.sort() 从小到大排序
+        rhyme.reverse() 倒序排序
+    3.7某元素出现次数
+        rhyme.count(……)
+    3.8查找某元素的下标
+        rhyme.index(……)
+        rhyme.index(…… , 开始下标 ， 结束下标)  从多少到多少中查找内容为……的下标
+    3.9替换某一元素
+        rhyme[rhyme.index(……)] = ……
+    3.10复制列表
+        rhyme_copy = rhyme.copy()
+        rhyme_copy = rhyme.copy[:] 拷贝从多少到多少的列表
+        
