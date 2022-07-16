@@ -1,2 +1,14 @@
-11111
-22222
+1 数字类型
+    x // y        x除以y的最大整数
+    abs(x)      x的相反数
+    int(x)      将x转化为整数，同理float，complex
+    divmod(x, y) 返回(x // y, x % y)
+    pow(x, y)    计算x的y次方
+    x ** y       计算x的y次方
+
+2 循环与分支
+    for循环
+        for i in "abcd"         从a到d的循环
+        for i in range(11)      从0到10的循环
+        for i in range(5, 10)   从5到9的循环
+        for i in range(5, 10, 2)循环：5 7 9
