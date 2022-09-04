@@ -22,6 +22,7 @@
         列表切片 rhyme[0:3]相当于rhyme[:3]
         rhyme[:]就是整个列表
         也可以像range一样用rhyme[::]
+        倒序输出rhyme[::-1]
     3.4在列表后面添加迭代对象
         rhyme.append(……) 只能添加一个
         rhyme.extend([……, ……，……]) 可以添加多个
@@ -34,6 +35,7 @@
     3.6排序
         rhyme.sort() 从小到大排序
         rhyme.reverse() 倒序排序
+        ryhme.sort(reverse=True) 从大到小排序
     3.7某元素出现次数
         rhyme.count(……)
     3.8查找某元素的下标
@@ -44,4 +46,5 @@
     3.10复制列表
         rhyme_copy = rhyme.copy()
         rhyme_copy = rhyme.copy[:] 拷贝从多少到多少的列表
-        
+    3.11列表长度
+        len(ryhme)  
